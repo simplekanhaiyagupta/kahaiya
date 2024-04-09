@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.image-card img{
+    border: 2px dotted rgb(72, 70, 70);
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+     
+}
+.image-card h4{
+    font-weight: 700;
+    color: #000;
+
+}
+.image-card input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 400px;
+    height: 40px;
+    border-bottom-color: 2px solid black;
+}
+.image-card input::placeholder{
+    color: #252323;
+    font-weight: 600;
+}
+#uploadForm button{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: #b12079;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.7;
+
+}
+#uploadForm button:hover{
+    opacity: 1;
+    background-color: #7d1e5d;
+}

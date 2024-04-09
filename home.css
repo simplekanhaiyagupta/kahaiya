@@ -1,0 +1,43 @@
+.btn {
+    background-color: #df2293;
+    border: none;
+    /* height: px; */
+    color: white;
+    padding: 15px 32px ;
+    width:300px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+    .form-label{
+    color: black;
+    font-weight: 500;
+    }
+    .condition span{
+    color: blue;
+    }
+
+    /* Button hover animation */
+    .btn:hover {
+    background-color: #b5078f;
+    color: #fff;
+    }
+
+    .paragraph p{
+    color: rgb(108, 103, 103);
+    font-weight: 400;
+    }
+    .paragraph span{
+    color: rgb(10, 10, 194);
+    font-weight: 400;
+    font-family: sans-serif;
+    cursor: pointer;
+    }

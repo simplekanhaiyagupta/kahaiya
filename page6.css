@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+   .navbar-brand{
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 500;
+   }
+  .nav-item a{
+    font-weight: 600;
+  }
+  ion-icon{
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  
+  .btn{
+    background-color: rgb(235, 6, 205);
+    color: #fff;
+    border-radius: 7px;
+  }
+  .user{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  .header h1{
+    font-weight: 600;
+    color: #000;
+    filter: contrast(120%);
+  }
+  .msg{
+    height: 160px;
+    width: 160px;
+    filter: opacity(70%);
+  
+  }
+  .paragraph p{
+    font-weight: 600;
+    color: #5e5c5c;
+  }
+  .paragraph span{
+    color: rgb(235, 6, 205); 
+    cursor: pointer;
+    font-weight: 700;
+  
+  }
+   
+  #about .containers{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    width: 100%;
+    background-color: #f7f3f3;
+  }
+  
+  
+  /* Column styles */
+  .column {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    height: 370px;
+  
+  }
+  .column ul li{
+    
+    list-style: none;
+    font-weight: 500;
+  }
+  .column h5{
+    color: #ff15c1;
+    font-weight: 600;
+    font-family: cursive;
+     
+  
+  }
+  .column h4{
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .column h3{
+    font-size: 17px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+  }
+  
